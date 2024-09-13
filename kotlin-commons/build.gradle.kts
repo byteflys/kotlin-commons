@@ -1,8 +1,11 @@
 plugins {
     id("org.jetbrains.kotlin.jvm")
     id("signing")
-    id("maven-publish")
     id("com.vanniktech.maven.publish")
+}
+
+kotlin {
+    jvmToolchain(8)
 }
 
 dependencies {
@@ -15,7 +18,6 @@ dependencies {
 
     // RxJava3
     api("io.reactivex.rxjava3:rxjava:3.1.9")
-    api("io.reactivex.rxjava3:rxandroid:3.0.2")
     api("com.github.akarnokd:rxjava3-retrofit-adapter:3.0.0")
 
     // OkHttp3
