@@ -1,8 +1,8 @@
 package x.kotlin.commons.preference
 
-import io.github.hellogoogle2000.kotlin.commons.preference.PreferenceValues.DEFAULT_PREFERENCE_NAME
-import io.github.hellogoogle2000.kotlin.commons.preference.PreferenceValues.SCOPE_MEMORY
-import io.github.hellogoogle2000.kotlin.commons.preference.PreferenceValues.SCOPE_PERSISTENT
+import x.kotlin.commons.preference.PreferenceValues.DEFAULT_PREFERENCE_NAME
+import x.kotlin.commons.preference.PreferenceValues.SCOPE_MEMORY
+import x.kotlin.commons.preference.PreferenceValues.SCOPE_PERSISTENT
 
 object PreferenceX {
 
