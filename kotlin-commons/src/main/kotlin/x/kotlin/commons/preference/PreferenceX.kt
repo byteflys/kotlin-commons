@@ -1,4 +1,4 @@
-package io.github.hellogoogle2000.kotlin.commons.preference
+package x.kotlin.commons.preference
 
 import io.github.hellogoogle2000.kotlin.commons.preference.PreferenceValues.DEFAULT_PREFERENCE_NAME
 import io.github.hellogoogle2000.kotlin.commons.preference.PreferenceValues.SCOPE_MEMORY

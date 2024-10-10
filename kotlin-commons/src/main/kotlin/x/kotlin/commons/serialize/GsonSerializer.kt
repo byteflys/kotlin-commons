@@ -1,4 +1,4 @@
-package io.github.hellogoogle2000.kotlin.commons.serialize
+package x.kotlin.commons.serialize
 
 import com.google.gson.Gson
 

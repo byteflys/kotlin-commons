@@ -1,4 +1,4 @@
-package io.github.hellogoogle2000.kotlin.commons.preference
+package x.kotlin.commons.preference
 
 object PreferenceValues {
 

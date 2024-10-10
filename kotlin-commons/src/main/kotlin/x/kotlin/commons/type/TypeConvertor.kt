@@ -1,4 +1,4 @@
-package io.github.hellogoogle2000.kotlin.commons.type
+package x.kotlin.commons.type
 
 import BooleanList
 import DoubleList
