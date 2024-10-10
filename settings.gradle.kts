@@ -39,6 +39,7 @@ plugins {
     id("com.android.library") version "8.1.2" apply false
     id("com.google.devtools.ksp") version "2.0.10-1.0.24" apply false
     id("com.vanniktech.maven.publish") version "0.29.0" apply false
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0" apply true
 }
 
 include(":kotlin-commons")
