@@ -28,6 +28,13 @@ dependencies {
     api("com.squareup.retrofit2:retrofit:2.11.0")
     api("com.squareup.retrofit2:converter-gson:2.11.0")
     api("com.squareup.retrofit2:adapter-rxjava2:2.11.0")
+
+    // Apache Commons
+    api("commons-io:commons-io:2.17.0")
+    api("org.apache.commons:commons-lang3:3.17.0")
+
+    // Zip
+    api("net.lingala.zip4j:zip4j:2.11.5")
 }
 
 signing {
