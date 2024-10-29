@@ -15,6 +15,10 @@ object JSON {
     fun Any?.toJsonOrNull(placeholder: String? = null): String? {
         if (this == null)
             return placeholder
+        if (this is String)
+            return this
+        if (this is Number)
+            return this.toString()
         return toJson()
     }
 
