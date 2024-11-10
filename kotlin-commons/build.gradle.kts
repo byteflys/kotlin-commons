@@ -10,6 +10,9 @@ kotlin {
 
 dependencies {
 
+    // Kotlin
+    api("org.jetbrains.kotlin:kotlin-stdlib-jdk8:2.0.21")
+
     // Coroutine
     api("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
 
